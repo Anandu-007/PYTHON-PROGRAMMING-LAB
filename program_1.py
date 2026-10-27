@@ -1,0 +1,27 @@
+# #program to find area of the circle
+# r = float(input("Enter radius: "))
+
+# area = 3.14 * r * r
+
+# print("Area of circle:", area)
+
+# #program to find leap year
+# year = int(input("Enter year: "))
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+
+#program to find largest of three numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)
