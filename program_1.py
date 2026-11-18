@@ -1,17 +1,17 @@
-# #program to find area of the circle
-# r = float(input("Enter radius: "))
+#program to find area of the circle
+r = float(input("Enter radius: "))
 
-# area = 3.14 * r * r
+area = 3.14 * r * r
 
-# print("Area of circle:", area)
+print("Area of circle:", area)
 
-# #program to find leap year
-# year = int(input("Enter year: "))
+#program to find leap year
+year = int(input("Enter year: "))
 
-# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
-#     print("Leap year")
-# else:
-#     print("Not a leap year")
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print("Leap year")
+else:
+    print("Not a leap year")
 
 
 #program to find largest of three numbers
